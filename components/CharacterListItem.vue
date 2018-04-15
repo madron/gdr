@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <v-card>
-      <v-card-title primary-title><h3>{{ character.name }}</h3></v-card-title>
-    </v-card>
-  </div>
+  <v-list-tile>
+      <v-list-tile-title>{{ character.name }}</v-list-tile-title>
+  </v-list-tile>
 </template>
 
 <script>

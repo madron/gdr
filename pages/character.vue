@@ -1,6 +1,5 @@
 <template>
 <div>
-    <h1>Characters</h1>
     <character-list v-bind:characters="characters"/>
 </div>
 </template>
