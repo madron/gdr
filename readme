@@ -1,0 +1,2 @@
+# Start couchdb
+docker run --name couchdb -p 5984:5984 couchdb:2.1.1
